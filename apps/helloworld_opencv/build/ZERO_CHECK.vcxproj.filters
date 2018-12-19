@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="O:\githubProjects\hmodel-cpp-public\apps\helloworld_opencv\build\CMakeFiles\4fa3b8116bee55ca242afa0b4b432ced\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{91F68408-F0B2-3871-A9E8-DD694126DE5D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

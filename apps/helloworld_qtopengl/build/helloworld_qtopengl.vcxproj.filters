@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\apps\helloworld_qtopengl\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="O:\githubProjects\hmodel-cpp-public\apps\helloworld_qtopengl\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EC6B06D8-F021-3B68-88BA-EDCB6DF90E40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

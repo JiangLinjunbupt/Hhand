@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A6917647-4083-3369-8B7E-03A6B620A25C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>helloworld_openni</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">helloworld_openni.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">helloworld_openni</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">helloworld_openni.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">helloworld_openni</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">helloworld_openni.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">helloworld_openni</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">helloworld_openni.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">helloworld_openni</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>O:\OpenNI32\Include;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\Qt\Qt5.7.0\5.7\msvc2015\include;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtWidgets;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtGui;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtCore;O:\Qt\Qt5.7.0\5.7\msvc2015\.\mkspecs\win32-msvc2015;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtOpenGL;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtXml;O:\eigen;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WITH_OPENNI;WITH_OPENCV;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_LIB;QT_XML_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NDEBUG;WITH_OPENNI;WITH_OPENCV;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_LIB;QT_XML_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>O:\OpenNI32\Include;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\Qt\Qt5.7.0\5.7\msvc2015\include;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtWidgets;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtGui;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtCore;O:\Qt\Qt5.7.0\5.7\msvc2015\.\mkspecs\win32-msvc2015;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtOpenGL;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtXml;C:\Users\78513\Downloads\eigen\Eigen3;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>O:\OpenNI32\Include;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\Qt\Qt5.7.0\5.7\msvc2015\include;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtWidgets;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtGui;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtCore;O:\Qt\Qt5.7.0\5.7\msvc2015\.\mkspecs\win32-msvc2015;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtOpenGL;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtXml;C:\Users\78513\Downloads\eigen\Eigen3;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>O:\OpenNI32\Lib\OpenNI2.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_core2413d.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_imgproc2413d.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_contrib2413d.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_highgui2413d.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5OpenGLd.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Xmld.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Widgetsd.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Guid.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build/Debug/helloworld_openni.lib</ImportLibrary>
+      <ProgramDataBaseFile>O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build/Debug/helloworld_openni.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>O:\OpenNI32\Include;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\Qt\Qt5.7.0\5.7\msvc2015\include;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtWidgets;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtGui;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtCore;O:\Qt\Qt5.7.0\5.7\msvc2015\.\mkspecs\win32-msvc2015;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtOpenGL;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtXml;C:\Users\78513\Downloads\eigen\Eigen3;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WITH_OPENNI;WITH_OPENCV;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_XML_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WITH_OPENNI;WITH_OPENCV;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_XML_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>O:\OpenNI32\Include;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\Qt\Qt5.7.0\5.7\msvc2015\include;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtWidgets;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtGui;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtCore;O:\Qt\Qt5.7.0\5.7\msvc2015\.\mkspecs\win32-msvc2015;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtOpenGL;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtXml;C:\Users\78513\Downloads\eigen\Eigen3;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>O:\OpenNI32\Include;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\Qt\Qt5.7.0\5.7\msvc2015\include;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtWidgets;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtGui;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtCore;O:\Qt\Qt5.7.0\5.7\msvc2015\.\mkspecs\win32-msvc2015;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtOpenGL;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtXml;C:\Users\78513\Downloads\eigen\Eigen3;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>O:\OpenNI32\Lib\OpenNI2.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_core2413.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_imgproc2413.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_contrib2413.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_highgui2413.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5OpenGL.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Xml.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Widgets.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Gui.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build/Release/helloworld_openni.lib</ImportLibrary>
+      <ProgramDataBaseFile>O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build/Release/helloworld_openni.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>O:\OpenNI32\Include;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\Qt\Qt5.7.0\5.7\msvc2015\include;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtWidgets;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtGui;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtCore;O:\Qt\Qt5.7.0\5.7\msvc2015\.\mkspecs\win32-msvc2015;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtOpenGL;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtXml;C:\Users\78513\Downloads\eigen\Eigen3;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WITH_OPENNI;WITH_OPENCV;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_XML_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WITH_OPENNI;WITH_OPENCV;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_XML_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>O:\OpenNI32\Include;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\Qt\Qt5.7.0\5.7\msvc2015\include;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtWidgets;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtGui;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtCore;O:\Qt\Qt5.7.0\5.7\msvc2015\.\mkspecs\win32-msvc2015;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtOpenGL;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtXml;C:\Users\78513\Downloads\eigen\Eigen3;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>O:\OpenNI32\Include;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\Qt\Qt5.7.0\5.7\msvc2015\include;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtWidgets;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtGui;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtCore;O:\Qt\Qt5.7.0\5.7\msvc2015\.\mkspecs\win32-msvc2015;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtOpenGL;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtXml;C:\Users\78513\Downloads\eigen\Eigen3;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>O:\OpenNI32\Lib\OpenNI2.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_core2413.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_imgproc2413.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_contrib2413.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_highgui2413.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5OpenGL.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Xml.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Widgets.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Gui.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build/MinSizeRel/helloworld_openni.lib</ImportLibrary>
+      <ProgramDataBaseFile>O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build/MinSizeRel/helloworld_openni.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>O:\OpenNI32\Include;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\Qt\Qt5.7.0\5.7\msvc2015\include;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtWidgets;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtGui;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtCore;O:\Qt\Qt5.7.0\5.7\msvc2015\.\mkspecs\win32-msvc2015;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtOpenGL;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtXml;C:\Users\78513\Downloads\eigen\Eigen3;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WITH_OPENNI;WITH_OPENCV;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_XML_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WITH_OPENNI;WITH_OPENCV;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_XML_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>O:\OpenNI32\Include;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\Qt\Qt5.7.0\5.7\msvc2015\include;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtWidgets;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtGui;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtCore;O:\Qt\Qt5.7.0\5.7\msvc2015\.\mkspecs\win32-msvc2015;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtOpenGL;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtXml;C:\Users\78513\Downloads\eigen\Eigen3;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>O:\OpenNI32\Include;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\Qt\Qt5.7.0\5.7\msvc2015\include;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtWidgets;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtGui;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtCore;O:\Qt\Qt5.7.0\5.7\msvc2015\.\mkspecs\win32-msvc2015;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtOpenGL;O:\Qt\Qt5.7.0\5.7\msvc2015\include\QtXml;C:\Users\78513\Downloads\eigen\Eigen3;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>O:\OpenNI32\Lib\OpenNI2.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_core2413.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_imgproc2413.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_contrib2413.lib;O:\opencv2.4.13.5\opencv\build\x86\vc14\lib\opencv_highgui2413.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5OpenGL.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Xml.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Widgets.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Gui.lib;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build/RelWithDebInfo/helloworld_openni.lib</ImportLibrary>
+      <ProgramDataBaseFile>O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build/RelWithDebInfo/helloworld_openni.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HO:/githubProjects/hmodel-cpp-public/apps/helloworld_openni -BO:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build --check-stamp-file O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeCCompiler.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureCompiler.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureOpenNI.cmake;O:\githubProjects\hmodel-cpp-public\cmake\FindOpenNI2.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureOpenCV.cmake;O:\githubProjects\hmodel-cpp-public\cmake\FindOpenCV2.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureQt.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureEigen.cmake;O:\githubProjects\hmodel-cpp-public\cmake\FindEigen3.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HO:/githubProjects/hmodel-cpp-public/apps/helloworld_openni -BO:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build --check-stamp-file O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeCCompiler.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureCompiler.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureOpenNI.cmake;O:\githubProjects\hmodel-cpp-public\cmake\FindOpenNI2.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureOpenCV.cmake;O:\githubProjects\hmodel-cpp-public\cmake\FindOpenCV2.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureQt.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureEigen.cmake;O:\githubProjects\hmodel-cpp-public\cmake\FindEigen3.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HO:/githubProjects/hmodel-cpp-public/apps/helloworld_openni -BO:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build --check-stamp-file O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeCCompiler.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureCompiler.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureOpenNI.cmake;O:\githubProjects\hmodel-cpp-public\cmake\FindOpenNI2.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureOpenCV.cmake;O:\githubProjects\hmodel-cpp-public\cmake\FindOpenCV2.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureQt.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureEigen.cmake;O:\githubProjects\hmodel-cpp-public\cmake\FindEigen3.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HO:/githubProjects/hmodel-cpp-public/apps/helloworld_openni -BO:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build --check-stamp-file O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeCCompiler.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\3.11.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureCompiler.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureOpenNI.cmake;O:\githubProjects\hmodel-cpp-public\cmake\FindOpenNI2.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureOpenCV.cmake;O:\githubProjects\hmodel-cpp-public\cmake\FindOpenCV2.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureQt.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;O:\Qt\Qt5.7.0\5.7\msvc2015\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;O:\githubProjects\hmodel-cpp-public\cmake\ConfigureEigen.cmake;O:\githubProjects\hmodel-cpp-public\cmake\FindEigen3.cmake;O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\main.cpp" />
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Data\Camera.cpp" />
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Sensor\Sensor_openni.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="O:\githubProjects\hmodel-cpp-public\apps\helloworld_openni\build\ZERO_CHECK.vcxproj">
+      <Project>{B1E8CE1B-979A-3DD0-BDF0-AA04F4D67531}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="O:\githubProjects\hmodel-cpp-public\apps\helloworld_qtopengl\build\CMakeFiles\3f81887cbc719487f3c38a54ce34e657\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D6F3B146-99EB-3588-8EE7-35AB17A9757D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

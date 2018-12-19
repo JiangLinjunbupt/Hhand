@@ -1,0 +1,3 @@
+O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build/CMakeFiles/helloworld_openni.dir
+O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build/CMakeFiles/ALL_BUILD.dir
+O:/githubProjects/hmodel-cpp-public/apps/helloworld_openni/build/CMakeFiles/ZERO_CHECK.dir

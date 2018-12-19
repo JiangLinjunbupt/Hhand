@@ -1,0 +1,3 @@
+O:/githubProjects/hmodel-cpp-public/apps/helloworld/build/CMakeFiles/helloworld.dir
+O:/githubProjects/hmodel-cpp-public/apps/helloworld/build/CMakeFiles/ALL_BUILD.dir
+O:/githubProjects/hmodel-cpp-public/apps/helloworld/build/CMakeFiles/ZERO_CHECK.dir

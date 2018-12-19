@@ -1,0 +1,35 @@
+# CMake generation dependency list for this directory.
+O:/githubProjects/hmodel-cpp-public/apps/helloworld_thrust/CMakeLists.txt
+O:/githubProjects/hmodel-cpp-public/apps/helloworld_thrust/build/CMakeFiles/3.11.0/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeSystemSpecificInitialize.cmake
+O:/githubProjects/hmodel-cpp-public/apps/helloworld_thrust/build/CMakeFiles/3.11.0/CMakeCCompiler.cmake
+O:/githubProjects/hmodel-cpp-public/apps/helloworld_thrust/build/CMakeFiles/3.11.0/CMakeCXXCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+O:/githubProjects/hmodel-cpp-public/apps/helloworld_thrust/build/CMakeFiles/3.11.0/CMakeRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake
+O:/githubProjects/hmodel-cpp-public/cmake/ConfigureCompiler.cmake
+O:/githubProjects/hmodel-cpp-public/cmake/ConfigureCUDA.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindCUDA.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindCUDA/select_compute_arch.cmake
+O:/githubProjects/hmodel-cpp-public/cmake/FindGLM.cmake
+O:/githubProjects/hmodel-cpp-public/apps/helloworld_thrust/build/CMakeFiles/helloworld_thrust.dir/helloworld_thrust_generated_main.cu.obj.depend
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindCUDA/run_nvcc.cmake
+O:/githubProjects/hmodel-cpp-public/apps/helloworld_thrust/build/CMakeFiles/helloworld_thrust.dir/helloworld_thrust_generated_main.cu.obj.cmake.pre-gen

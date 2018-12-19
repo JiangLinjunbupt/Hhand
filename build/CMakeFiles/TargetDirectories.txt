@@ -1,0 +1,8 @@
+O:/githubProjects/hmodel-cpp-public/build/CMakeFiles/ALL_BUILD.dir
+O:/githubProjects/hmodel-cpp-public/build/CMakeFiles/ZERO_CHECK.dir
+O:/githubProjects/hmodel-cpp-public/build/util/CMakeFiles/util_headers.dir
+O:/githubProjects/hmodel-cpp-public/build/cudax/CMakeFiles/cudax_files.dir
+O:/githubProjects/hmodel-cpp-public/build/cudax/CMakeFiles/cudax.dir
+O:/githubProjects/hmodel-cpp-public/build/tracker/CMakeFiles/shaders.dir
+O:/githubProjects/hmodel-cpp-public/build/tracker/CMakeFiles/hmodelsdk.dir
+O:/githubProjects/hmodel-cpp-public/build/apps/hmodel_atb/CMakeFiles/hmodel_atb.dir

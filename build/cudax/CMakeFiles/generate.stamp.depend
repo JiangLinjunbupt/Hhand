@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+O:/githubProjects/hmodel-cpp-public/cudax/CMakeLists.txt
+O:/githubProjects/hmodel-cpp-public/build/cudax/CMakeFiles/cudax.dir/cudax_generated_kernel.cu.obj.depend
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindCUDA/run_nvcc.cmake
+O:/githubProjects/hmodel-cpp-public/build/cudax/CMakeFiles/cudax.dir/cudax_generated_outer_product.cu.obj.depend
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindCUDA/run_nvcc.cmake
+O:/githubProjects/hmodel-cpp-public/build/cudax/CMakeFiles/cudax.dir/cudax_generated_kernel.cu.obj.cmake.pre-gen
+O:/githubProjects/hmodel-cpp-public/build/cudax/CMakeFiles/cudax.dir/cudax_generated_outer_product.cu.obj.cmake.pre-gen

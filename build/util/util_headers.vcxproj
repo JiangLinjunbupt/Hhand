@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B95E23FC-9405-3C26-B6FB-26AF0BDD4DCA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>util_headers</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>O:\Qt\5.7\msvc2015_64\include;O:\Qt\5.7\msvc2015_64\include\QtWidgets;O:\Qt\5.7\msvc2015_64\include\QtGui;O:\Qt\5.7\msvc2015_64\include\QtCore;O:\Qt\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;O:\Qt\5.7\msvc2015_64\include\QtOpenGL;O:\Qt\5.7\msvc2015_64\include\QtXml;O:\GLfile;O:\eigen;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\OpenNI32\Include;C:\Program Files (x86)\Intel\RSSDK\include;C:\Program Files (x86)\Intel\RSSDK\sample\core\common\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;O:\glm;O:\AntTweakBar\include;O:\githubProjects\hmodel-cpp-public\util\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>O:\Qt\5.7\msvc2015_64\include;O:\Qt\5.7\msvc2015_64\include\QtWidgets;O:\Qt\5.7\msvc2015_64\include\QtGui;O:\Qt\5.7\msvc2015_64\include\QtCore;O:\Qt\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;O:\Qt\5.7\msvc2015_64\include\QtOpenGL;O:\Qt\5.7\msvc2015_64\include\QtXml;O:\GLfile;O:\eigen;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\OpenNI32\Include;C:\Program Files (x86)\Intel\RSSDK\include;C:\Program Files (x86)\Intel\RSSDK\sample\core\common\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;O:\glm;O:\AntTweakBar\include;O:\githubProjects\hmodel-cpp-public\util\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>O:\Qt\5.7\msvc2015_64\include;O:\Qt\5.7\msvc2015_64\include\QtWidgets;O:\Qt\5.7\msvc2015_64\include\QtGui;O:\Qt\5.7\msvc2015_64\include\QtCore;O:\Qt\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;O:\Qt\5.7\msvc2015_64\include\QtOpenGL;O:\Qt\5.7\msvc2015_64\include\QtXml;O:\GLfile;O:\eigen;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\OpenNI32\Include;C:\Program Files (x86)\Intel\RSSDK\include;C:\Program Files (x86)\Intel\RSSDK\sample\core\common\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;O:\glm;O:\AntTweakBar\include;O:\githubProjects\hmodel-cpp-public\util\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>O:\Qt\5.7\msvc2015_64\include;O:\Qt\5.7\msvc2015_64\include\QtWidgets;O:\Qt\5.7\msvc2015_64\include\QtGui;O:\Qt\5.7\msvc2015_64\include\QtCore;O:\Qt\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;O:\Qt\5.7\msvc2015_64\include\QtOpenGL;O:\Qt\5.7\msvc2015_64\include\QtXml;O:\GLfile;O:\eigen;O:\opencv2.4.13.5\opencv\build\include;O:\opencv2.4.13.5\opencv\build\include\opencv2;O:\opencv2.4.13.5\opencv\build\include\opencv2\core;O:\opencv2.4.13.5\opencv\build\include\opencv2\imgproc;O:\opencv2.4.13.5\opencv\build\include\opencv2\contrib;O:\opencv2.4.13.5\opencv\build\include\opencv2\highgui;O:\opencv2.4.13.5\opencv\build\include\opencv2\flann;O:\OpenNI32\Include;C:\Program Files (x86)\Intel\RSSDK\include;C:\Program Files (x86)\Intel\RSSDK\sample\core\common\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;O:\glm;O:\AntTweakBar\include;O:\githubProjects\hmodel-cpp-public\util\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="O:\githubProjects\hmodel-cpp-public\util\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule O:/githubProjects/hmodel-cpp-public/util/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HO:/githubProjects/hmodel-cpp-public -BO:/githubProjects/hmodel-cpp-public/build --check-stamp-file O:/githubProjects/hmodel-cpp-public/build/util/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">O:/githubProjects/hmodel-cpp-public/util/CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\util\CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\util\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">O:\githubProjects\hmodel-cpp-public\build\util\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule O:/githubProjects/hmodel-cpp-public/util/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HO:/githubProjects/hmodel-cpp-public -BO:/githubProjects/hmodel-cpp-public/build --check-stamp-file O:/githubProjects/hmodel-cpp-public/build/util/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">O:/githubProjects/hmodel-cpp-public/util/CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\util\CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\util\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">O:\githubProjects\hmodel-cpp-public\build\util\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule O:/githubProjects/hmodel-cpp-public/util/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HO:/githubProjects/hmodel-cpp-public -BO:/githubProjects/hmodel-cpp-public/build --check-stamp-file O:/githubProjects/hmodel-cpp-public/build/util/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">O:/githubProjects/hmodel-cpp-public/util/CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\util\CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\util\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">O:\githubProjects\hmodel-cpp-public\build\util\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule O:/githubProjects/hmodel-cpp-public/util/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HO:/githubProjects/hmodel-cpp-public -BO:/githubProjects/hmodel-cpp-public/build --check-stamp-file O:/githubProjects/hmodel-cpp-public/build/util/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">O:/githubProjects/hmodel-cpp-public/util/CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\util\CMakeLists.txt;O:\githubProjects\hmodel-cpp-public\util\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">O:\githubProjects\hmodel-cpp-public\build\util\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\MathUtils.h" />
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\OpenGL32Format.h" />
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\Sleeper.h" />
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\check_error_gl.h" />
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\gl_wrapper.h" />
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\mylogger.h" />
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\opencv_wrapper.h" />
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\openmp_helpers.h" />
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\qDebug_helpers.h" />
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\qfile_helper.h" />
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\qt2eigen.h" />
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\singleton.h" />
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\tictoc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="O:\githubProjects\hmodel-cpp-public\build\ZERO_CHECK.vcxproj">
+      <Project>{4013E381-C00B-3DB4-8931-B9EFC1D9FBE9}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

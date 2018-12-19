@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Data\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Data\DataStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Detection\FindFingers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Detection\QianDetection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Detection\TrivialDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\Damping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\Energy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\Fitting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\JointLimits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\PoseSpace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\Temporal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\GLWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\HModel\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\HModel\ModelSemantics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\HModel\ModelSerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\HModel\OutlineFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\HandFinder\HandFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\HandFinder\connectedComponents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\ConvolutionRenderer\ConvolutionRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\CustomFrameBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\DebugRenderer\ArcRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\DebugRenderer\DebugRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\DebugRenderer\PointRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\DebugRenderer\SegmentRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\GeometricPrimitiveRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\KinectDataRenderer\KinectDataRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\ObjectRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\OffscreenRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Sensor\Sensor_openni.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Sensor\Sensor_realsense.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Sensor\Sensor_softkin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\TwSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\tracker\Worker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="O:\githubProjects\hmodel-cpp-public\build\tracker\qrc_shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Data\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Data\DataFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Data\DataStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Data\SolutionStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Data\TextureColor8UC3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Data\TextureDepth16UC1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\DataStructure\CustomJointInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Detection\DetectionStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Detection\FindFingers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Detection\QianDetection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Detection\TrivialDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Detection\matlab_helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\Damping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\Energy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\Fitting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\Fitting\DistanceTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\Fitting\OnlinePerformanceMetrics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\Fitting\Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\Fitting\TrackingMonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\JointLimits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\PoseSpace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Energy\Temporal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\ForwardDeclarations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\GLWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\HModel\DataLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\HModel\GeometryHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\HModel\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\HModel\ModelSemantics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\HModel\ModelSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\HModel\OutlineFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\HandFinder\HandFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\HandFinder\connectedComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\ConvolutionRenderer\ConvolutionRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\CustomFrameBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\DebugRenderer\ArcRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\DebugRenderer\DebugRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\DebugRenderer\PointRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\DebugRenderer\SegmentRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\GeometricPrimitiveRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\KinectDataRenderer\KinectDataRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\ObjectRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\OffscreenRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Sensor\Sensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Tracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\TwSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\tracker\Worker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="O:\githubProjects\hmodel-cpp-public\tracker\OpenGL\shaders.qrc" />
+    <CustomBuild Include="O:\githubProjects\hmodel-cpp-public\tracker\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{307F649E-BE01-329A-B57D-61E3DD394F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{55D66BC0-22EB-30AA-A680-7B52A58576BB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

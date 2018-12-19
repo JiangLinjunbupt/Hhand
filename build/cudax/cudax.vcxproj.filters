@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\CublasHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\CudaHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\CudaTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\KinectCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\Kinematic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\PixelIndexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\cuda_glm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\externs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\functors\ComputeJacobianData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\functors\ComputeJacobianRow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\functors\ComputeJacobianSilhouette.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\functors\CorrespondencesFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\functors\IsSilhouette.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\helper_cuda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\kernel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\kernel_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\kernel_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="O:\githubProjects\hmodel-cpp-public\cudax\kernel_upload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="O:\githubProjects\hmodel-cpp-public\cudax\kernel.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="O:\githubProjects\hmodel-cpp-public\cudax\outer_product.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="O:\githubProjects\hmodel-cpp-public\cudax\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="O:\githubProjects\hmodel-cpp-public\build\cudax\CMakeFiles\cudax.dir\$(Configuration)\cudax_generated_kernel.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="O:\githubProjects\hmodel-cpp-public\build\cudax\CMakeFiles\cudax.dir\$(Configuration)\cudax_generated_outer_product.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{307F649E-BE01-329A-B57D-61E3DD394F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{6D7FAC4B-2905-3E74-9934-2CC3EFF50503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{55D66BC0-22EB-30AA-A680-7B52A58576BB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

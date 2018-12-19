@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="O:\githubProjects\hmodel-cpp-public\util\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\MathUtils.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\OpenGL32Format.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\Sleeper.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\check_error_gl.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\gl_wrapper.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\mylogger.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\opencv_wrapper.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\openmp_helpers.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\qDebug_helpers.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\qfile_helper.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\qt2eigen.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\singleton.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="O:\githubProjects\hmodel-cpp-public\util\tictoc.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{307F649E-BE01-329A-B57D-61E3DD394F94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

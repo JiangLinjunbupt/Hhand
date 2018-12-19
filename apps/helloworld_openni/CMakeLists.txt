@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.0)
+get_filename_component(PROJECT ${CMAKE_CURRENT_LIST_DIR} NAME)
+project(${PROJECT})
+
+
+set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR}/../../cmake)
+include(../../cmake/ConfigureCompiler.cmake)
+include(../../cmake/ConfigureOpenNI.cmake)
+include(../../cmake/ConfigureOpenCV.cmake)
+include(../../cmake/ConfigureQt.cmake)
+include(../../cmake/ConfigureEigen.cmake)
+
+if(OPENNI2_FOUND)
+    set(CMAKE_BUILD_TYPE "Debug")
+    INCLUDE_DIRECTORIES(../../)
+    list(APPEND SOURCES ../../tracker/Data/Camera.cpp)
+    list(APPEND SOURCES ../../tracker/Sensor/Sensor_openni.cpp)
+    add_executable(${PROJECT} main.cpp ${SOURCES} )
+    target_link_libraries(${PROJECT} ${LIBRARIES})
+else()
+    message(STATUS "Cannot compile this helloworld")
+endif()
